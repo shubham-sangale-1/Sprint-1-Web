@@ -5,6 +5,7 @@
  } 
   
 #first-info{
+    margin-top: 8px;
     padding: 10px;
     display: flex;
     list-style: none;
@@ -67,10 +68,11 @@
     background-image: url('https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?ga=GA1.1.220584239.1725994828&semt=ais_hybrid');
     background-repeat: no-repeat;
     background-size: cover;
+    /* opacity: 0.6; */
 }
 #op{
     background-color:black;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 #image-content{
     height: 80vh;
@@ -113,8 +115,9 @@
     cursor: pointer;
 }
 #calender button{  
-    background-color:chocolate !important;
+    background-color:black !important;
     color: white;
+    opacity: 0.9;
     border: none;
     font-weight: bolder;
     padding: 50px 50px;
@@ -123,7 +126,7 @@
     /* display: inline-block; */
     position: absolute;
     right: 92px;
-    top: 455px;
+    top: 470px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -165,7 +168,7 @@
     gap: 50px;
 }
 #gallery img{
-    height:320px;
+    height:350px;
     width: 280px;
 }
 #plan{
@@ -261,4 +264,68 @@
     color: white;
     padding: 8px 15px 8px 15px;
 }
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(28, 27, 27);
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+#logos ul{
+    display: flex;
+    list-style: none;
+}
+#logos ul li{
+    margin-top: 50px;
+    margin-right: 70px;
+}
+#logos{
+    opacity: 0.5;
+}
 
+#footer-link{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 30% 15% 15% 40%;
+}
+.f-link{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+#quick-links{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#quick-links li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 19px;
+    margin-top: 5px;
+}
+#last-input{
+    margin-top: 10px;
+    height: 28px;
+    width: 250px;
+    border: 0px;
+    padding: 8px;
+}
+#subscribe{
+    background-color: chocolate;
+    color: white;
+    font-size: 22px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    margin-top: 1px;
+    position:absolute;
+    border: 0px;
+    /* margin-left: -7px; */
+    top: 5355px;
+    right: 180px;
+    border-radius: 0px;
+}
+
+#final{
+    display: grid;
+    grid-template-columns:80% 20% ;
+}
